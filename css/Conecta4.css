@@ -1,0 +1,61 @@
+#juego {
+    background: #0000FF;
+    width: 600px;
+    height: 510px;
+    border-spacing: 10px;
+    margin-left: 50px;
+}
+
+#base {
+    background: #0000FF;
+    width: 700px;
+    height: 20px;
+}
+
+td {
+    background: #0000FF;
+    border-radius: 50px;
+    box-shadow: inset 8px 8px 10px 0px #000000;
+}
+
+#botonera {
+    width: 600px;
+    height: 60px;
+    border: 1px;
+    background: transparent;
+    border-spacing: 10px;
+    margin-left: 50px;
+}
+
+#boton0,
+#boton1,
+#boton2,
+#boton3,
+#boton4,
+#boton5,
+#boton6 {
+    background: #6495ED;
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 30px;
+    box-shadow: 0px 0px 0px 0px;
+}
+
+#boton0:hover,
+#boton1:hover,
+#boton2:hover,
+#boton3:hover,
+#boton4:hover,
+#boton5:hover,
+#boton6:hover {
+    background: #4169E1;
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+#ganador {
+    margin-left: 163px;
+}
